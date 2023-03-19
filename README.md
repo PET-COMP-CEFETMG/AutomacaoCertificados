@@ -1,2 +1,4 @@
 # AutomacaoCertificados
 Código usado pra a automação na emissão de certificados.
+
+O algoritmo recebe uma lista contendo as presenças registrada de cada pessoa, seja em minicurso, palestra e oficina. A partir disso ele faz uma autenticação para a veracidade da lista recebida com outra lista de participantes inscritos no evento, tendo em vista que apenas os inscritos no evento que iriam obter o certificado. Posteriormente, para cada pessoa inscrita era feita uma análise em que ao final obtinha-se uma relação contendo todas as atividades que a própria participou no evento. Com um modelo de certificados feito anteriormente em LaTeX o programa alterava-o com informações de uma pessoa e suas atividades registradas. Ao final do processo os certificados emitidos eram salvos em uma pasta no formato aceito por LaTeX (.tex).
